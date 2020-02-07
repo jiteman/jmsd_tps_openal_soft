@@ -5,19 +5,9 @@
 
 
 #if !defined( JMSD_MICROSOFT_VISUAL_CPP_COMPILER_IS_DETECTED )
-	#error This file "jmsf/ms_windows/temporary_windows_include.h" is included, but there is no MS Windows detected.
+	#error This file "include_Windows_undefine.h" is included, but there is no MS Windows detected.
 
 #endif
-
-
-#pragma warning( push )
-#pragma warning( disable : 4668 ) // is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-
-
-#include <Windows.h>
-
-
-#pragma warning( pop )
 
 
 #if defined( max )

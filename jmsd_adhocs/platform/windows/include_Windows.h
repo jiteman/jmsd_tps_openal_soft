@@ -5,7 +5,7 @@
 
 
 #if !defined( JMSD_MICROSOFT_VISUAL_CPP_COMPILER_IS_DETECTED )
-	#error This file "jmsf/ms_windows/temporary_windows_include.h" is included, but there is no MS Windows detected.
+	#error This file "include_Windows.h" is included, but there is no MS Windows detected.
 
 #endif
 

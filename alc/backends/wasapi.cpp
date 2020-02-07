@@ -23,6 +23,7 @@
 #include "backends/wasapi.h"
 
 #define WIN32_LEAN_AND_MEAN
+#include "include_Windows.h"
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -42,7 +43,7 @@
 #include <ksmedia.h>
 #endif
 
-#include "include_Windows.h"
+#include "include_Windows_undefine.h"
 
 #include <algorithm>
 #include <atomic>

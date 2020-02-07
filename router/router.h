@@ -5,6 +5,8 @@
 #include "include_Windows.h"
 #include <winnt.h>
 
+#include "include_Windows_undefine.h"
+
 #include <stdio.h>
 
 #include <vector>

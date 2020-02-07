@@ -22,19 +22,22 @@
 
 #include "backends/dsound.h"
 
-#define WIN32_LEAN_AND_MEAN
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <memory.h>
 
+
+#define WIN32_LEAN_AND_MEAN
 #include "include_Windows.h"
+
 #include <cguid.h>
 #include <mmreg.h>
 #ifndef _WAVEFORMATEXTENSIBLE_
 #include <ks.h>
 #include <ksmedia.h>
 #endif
+
+#include "include_Windows_undefine.h"
 
 #include <atomic>
 #include <cassert>

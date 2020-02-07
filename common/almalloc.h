@@ -2,6 +2,11 @@
 #define AL_MALLOC_H
 
 
+#if defined( _WIN32 )
+#include "include_Windows_undefine.h"
+#endif
+
+
 #include <algorithm>
 #include <cstddef>
 #include <iterator>
