@@ -26,7 +26,7 @@
 #include <cmath>
 #include <algorithm>
 
-#include "al/auxeffectslot.h"
+#include "auxeffectslot.h"
 #include "alcmain.h"
 #include "alcontext.h"
 #include "alu.h"

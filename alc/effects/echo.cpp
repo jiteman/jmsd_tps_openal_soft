@@ -25,8 +25,8 @@
 
 #include <algorithm>
 
-#include "al/auxeffectslot.h"
-#include "al/filter.h"
+#include "auxeffectslot.h"
+#include "filter.h"
 #include "alcmain.h"
 #include "alcontext.h"
 #include "alu.h"

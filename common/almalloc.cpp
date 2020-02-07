@@ -7,12 +7,15 @@
 #include <cstddef>
 #include <cstdlib>
 #include <cstring>
+
 #ifdef HAVE_MALLOC_H
 #include <malloc.h>
 #endif
 
 
+#if !defined( _WIN32 )
 #define ALIGNED_ALLOC_AVAILABLE (__STDC_VERSION__ >= 201112L || __cplusplus >= 201703L)
+#endif
 
 void *al_malloc(size_t alignment, size_t size)
 {

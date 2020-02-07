@@ -37,7 +37,7 @@
 #include "AL/alc.h"
 #include "AL/alext.h"
 
-#include "al/auxeffectslot.h"
+#include "auxeffectslot.h"
 #include "alcmain.h"
 #include "alconfig.h"
 #include "almalloc.h"

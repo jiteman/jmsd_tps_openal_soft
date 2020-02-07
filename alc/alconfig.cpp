@@ -34,8 +34,8 @@
 #include <cctype>
 #include <cstring>
 #ifdef _WIN32_IE
-#include <windows.h>
 #include <shlobj.h>
+#include "include_Windows.h"
 #endif
 #ifdef __APPLE__
 #include <CoreFoundation/CoreFoundation.h>

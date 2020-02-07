@@ -8,7 +8,7 @@
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
-#include <windows.h>
+#include "include_Windows.h"
 
 std::string wstr_to_utf8(const WCHAR *wstr)
 {

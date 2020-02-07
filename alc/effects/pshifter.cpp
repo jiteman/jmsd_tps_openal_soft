@@ -30,7 +30,7 @@
 #include <complex>
 #include <algorithm>
 
-#include "al/auxeffectslot.h"
+#include "auxeffectslot.h"
 #include "alcmain.h"
 #include "alcomplex.h"
 #include "alcontext.h"

@@ -11,8 +11,8 @@
  */
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
-#include <windows.h>
 #include <shellapi.h>
+#include "include_Windows.h"
 
 static FILE *my_fopen(const char *fname, const char *mode)
 {

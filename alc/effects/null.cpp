@@ -4,7 +4,7 @@
 #include "AL/al.h"
 #include "AL/alc.h"
 
-#include "al/auxeffectslot.h"
+#include "auxeffectslot.h"
 #include "alcmain.h"
 #include "alcontext.h"
 #include "almalloc.h"

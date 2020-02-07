@@ -23,12 +23,12 @@
 #include "backends/dsound.h"
 
 #define WIN32_LEAN_AND_MEAN
-#include <windows.h>
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <memory.h>
 
+#include "include_Windows.h"
 #include <cguid.h>
 #include <mmreg.h>
 #ifndef _WAVEFORMATEXTENSIBLE_

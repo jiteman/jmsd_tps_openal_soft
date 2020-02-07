@@ -37,9 +37,9 @@
 #include "AL/al.h"
 #include "AL/alc.h"
 
-#include "al/buffer.h"
-#include "al/event.h"
-#include "al/source.h"
+#include "buffer.h"
+#include "event.h"
+#include "source.h"
 #include "alcmain.h"
 #include "albyte.h"
 #include "alconfig.h"

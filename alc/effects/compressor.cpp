@@ -22,7 +22,7 @@
 
 #include <cstdlib>
 
-#include "al/auxeffectslot.h"
+#include "auxeffectslot.h"
 #include "alcmain.h"
 #include "alcontext.h"
 #include "alu.h"
@@ -177,7 +177,7 @@ void Compressor_setParamfv(EffectProps*, ALCcontext *context, ALenum param, cons
 { context->setError(AL_INVALID_ENUM, "Invalid compressor float-vector property 0x%04x", param); }
 
 void Compressor_getParami(const EffectProps *props, ALCcontext *context, ALenum param, ALint *val)
-{ 
+{
     switch(param)
     {
         case AL_COMPRESSOR_ONOFF:

@@ -12,7 +12,7 @@
 #include "AL/al.h"
 #include "AL/alc.h"
 
-#include "al/listener.h"
+#include "listener.h"
 #include "almalloc.h"
 #include "alnumeric.h"
 #include "alu.h"

@@ -6,7 +6,7 @@
 #include "AL/al.h"
 #include "AL/alext.h"
 
-#include "al/buffer.h"
+#include "buffer.h"
 #include "alspan.h"
 #include "alu.h"
 #include "devformat.h"

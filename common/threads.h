@@ -13,7 +13,7 @@
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
-#include <windows.h>
+#include "include_Windows.h"
 #elif defined(__APPLE__)
 #include <dispatch/dispatch.h>
 #else

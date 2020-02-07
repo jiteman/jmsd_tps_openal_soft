@@ -29,8 +29,8 @@
 #include <algorithm>
 #include <functional>
 
-#include "al/auxeffectslot.h"
-#include "al/listener.h"
+#include "auxeffectslot.h"
+#include "listener.h"
 #include "alcmain.h"
 #include "alcontext.h"
 #include "alu.h"

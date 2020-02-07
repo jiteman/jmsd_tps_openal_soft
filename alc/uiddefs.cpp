@@ -6,7 +6,7 @@
 
 #if defined(HAVE_GUIDDEF_H) || defined(HAVE_INITGUID_H)
 #define INITGUID
-#include <windows.h>
+#include "include_Windows.h"
 #ifdef HAVE_GUIDDEF_H
 #include <guiddef.h>
 #else
